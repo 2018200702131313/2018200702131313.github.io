@@ -5,11 +5,16 @@
     <script>
       function WA()
       {
+        if(localStorage.M1000 == undefined) localStorage.M1000 = 0 ;
         document.getElementById("result").innerHTML=" WA get 0 point expect 2 , point " + localStorage.M1000 ;
       }
       function AC()
       {
-        if(localStorage.M1000 < 100)
+        if(localStorage.M1000 == undefined)
+        {
+          localStorage.M1000 = 100 ;
+        }
+        else
         {
           localStorage.M1000 = 100 ;
         }
