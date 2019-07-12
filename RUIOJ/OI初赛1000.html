@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OI初赛1000 | RUIOJ</title>
+    <script>
+      function WA()
+      {
+        if(localStorage.OI1000 == undefined) localStorage.OI1000 = 0 ;
+        document.getElementById("result").innerHTML=" WA get 0 point expect 2 , point " + localStorage.OI ;
+      }
+      function AC()
+      {
+        if(localStorage.OI1000 == undefined)
+        {
+          localStorage.OI1000 = 100 ;
+        }
+        else
+        {
+          localStorage.OI1000 = 100 ;
+        }
+        document.getElementById("result").innerHTML=" AC get full point 100 , point " + localStorage.OI1000 ;
+      }
+    </script>
+  </head>
+  <body>
+    <div style="color:#33FFCC">
+      <p>选择题</p>
+    </div>
+    <div style="color:purple">
+       <p>rui_er</p>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div style="color:#00FF00">
+            <p></p>
+          </div>
+          <p><button onclick="WA()" type="button">1987</button></p>
+          <p><button onclick="WA()" type="button">1988</button></p>
+          <p><button onclick="AC()" type="button">1989</button></p>
+          <p><button onclick="WA()" type="button">1990</button></p>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
