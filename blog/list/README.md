@@ -4,4 +4,4 @@
 
 > 列表：
 
-[OJ推荐](https://2018200702131313.github.io/blog/show/20190726001)
+[OJ推荐](https://2018200702131313.github.io/blog/show/2019/07/26)
